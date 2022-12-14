@@ -64,3 +64,43 @@ Las citas de generar utilizando el carácter mayo que `>` al comienzo del bloque
  # Listas
 
  Para crear listas desordenadas podemos utilizar 3 tipos de simbolos por cada item de la lista: Un asterisco `*`, un guión medio `-` o un símbolo más `+`. `Ejemplo:`
+ 
+ * Ítem 1
+ * Ítem 2
+ * Ítem 3
+
+Para crear listas ordenadas debes utilizar la sintaxis de tipo: `1.`.
+
+1. Ítem 1
+2. Ítem 2
+3. Ítem 3
+
+Para generar listas anidadas (desordenadas u ordenadas) dentro de otras, simplemente tendrás que añadir `dos (o cuatro) espacios en blanco`. `Ejemplo:`
+
+* Ítem 1
+ * Ítem 12
+  * Ítem 121
+*  Ítem 2
+
+1. Ítem 1
+ 1. Ítem 12
+  1. Ítem 121
+2. Ítem 1
+
+# Links o enlaces
+
+Se crean escribiendo la palabra o texto enlazada entre `[]` corchetes y el link en cuestión entre `()` paréntesis.
+
+Sin texto enlazado escribe la URL Entre ángulos `< URL >` Enlace de ejemplo como referencia: [3con14](https://www.3con14.com), y al final del texto escribir la etiquetea seguida de dos puntos.
+
+# Imágenes
+
+Insertar una imagen con Markdown se realiza de una manera idéntica a insertar links. En este caso, debes añadir un símbolo de `!` exclamación al principio y el enlace que es la ubicación de la imagen.
+
+~~~
+![Texto alternativo](ruta/imagen.jpg "Título alternativo")
+~~~
+
+`Ejemplo:`
+![Pato]([ruta/imagen.jpg](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fphotoshopbattles%2Fcomments%2F6j5pva%2Fpsbattle_this_duck_laying_on_its_back%2F&psig=AOvVaw1g_4ogjrwvjPt-t-pnityu&ust=1671122440451000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKDJgq7G-fsCFQAAAAAdAAAAABAN) "Pato")
+![Nútria]([ruta/imagen.jpg](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nps.gov%2Fsubjects%2Faknatureandscience%2Fwildlifemarineotters.htm&psig=AOvVaw2G9eMijjpe_UhPNgDgkckm&ust=1671122488375000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKC3wMXG-fsCFQAAAAAdAAAAABAI) "Nútria")
