@@ -102,5 +102,46 @@ Insertar una imagen con Markdown se realiza de una manera idéntica a insertar l
 ~~~
 
 `Ejemplo:`
-![Pato](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fphotoshopbattles%2Fcomments%2F6j5pva%2Fpsbattle_this_duck_laying_on_its_back%2F&psig=AOvVaw1g_4ogjrwvjPt-t-pnityu&ust=1671122440451000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKDJgq7G-fsCFQAAAAAdAAAAABAN "Pato")
-![Nútria](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nps.gov%2Fsubjects%2Faknatureandscience%2Fwildlifemarineotters.htm&psig=AOvVaw2G9eMijjpe_UhPNgDgkckm&ust=1671122488375000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKC3wMXG-fsCFQAAAAAdAAAAABAI "Nútria")
+![Pato](https://kellogggarden.com/wp-content/uploads/2018/11/raising-ducks-winter.jpg "Pato")
+
+![Nútria](https://www.nps.gov/common/uploads/grid_builder/aknatureandscience/crop16_9/D1C90B2A-0741-A84F-28BC17F51F08BB9B.jpg?width=465&quality=90&mode=crop "Nútria")
+
+# Tablas
+
+Markdown permite dibujar tablas mediante pleacs `|`. Cada celda está separada por uno de estos caracteres. Para crear encabezados que se distingan visualmente del resto del contenido, se subrayan las celdas correspondientes con guiones `-`. `Ejemplo:`
+
+| Columna 1 | Columna 2 |
+----------------------
+| uno | dos |
+| tres | cuatro |
+| cinco | seis |
+
+# Línea de Código
+
+Encerrando el código entre acentos graves `<html lang="es">`
+
+# Bloque de Código
+
+Para crear un bloque entero que contenga código lo único que tienes que hacer es encerrar dicho párrafo entre dos líneas formadas por tres ~ virgulillas o tres acentos grave. La otra manera de añadir código en Markdown es comenzar el párrafo con `cuatro espacios en blanco`. `Ejemplo:`
+~~~ html
+<heard>
+ <meta charset="UTF-8" />
+ <meta htto-equiv="X-UA-Compatible" content="IE=edge" />
+ <title>Document</title>
+</head>
+~~~
+
+# Omitir Markdown
+
+Cómo escribir ciertos símbolos como `*` o `#`, sin que Markdown los interprete para convertirlos en negritas...  
+Escribiendo justo delante del símbolo la barra invertida `\`. `Ejemplo:` Esto es un asterisco \*
+
+# Escritura matemática
+
+En línea encerrando la fórmula entre signos de `$` En párrafos centrados, encerrando la fórmula entre dos signos `$$`
+* Fórmulas en línea: $(a + b)² = a² + b² + 2ab$
+* Fórmulas centradas: $$ a² - b² = (a + b)*(a-b)$$
+* Radicales: $$\sqrt{a² - b²}$$
+* Fracciones $$ x = \frac {-b \pm \sqrt{b² - 4ac}}{2a}$$
+* Paréntesis grandes: $$\left (\sqrt{x²}\right)²$$
+* Colores: $${\color{purple}{A}}abc123$$
