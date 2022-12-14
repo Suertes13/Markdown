@@ -83,8 +83,8 @@ Para generar listas anidadas (desordenadas u ordenadas) dentro de otras, simplem
 *  Ítem 2
 
 1. Ítem 1
-  1. Ítem 12
-    1. Ítem 121
+   1. Ítem 12
+      1. Ítem 121
 2. Ítem 1
 
 # Links o enlaces
@@ -102,5 +102,5 @@ Insertar una imagen con Markdown se realiza de una manera idéntica a insertar l
 ~~~
 
 `Ejemplo:`
-![Pato](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fphotoshopbattles%2Fcomments%2F6j5pva%2Fpsbattle_this_duck_laying_on_its_back%2F&psig=AOvVaw1g_4ogjrwvjPt-t-pnityu&ust=1671122440451000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKDJgq7G-fsCFQAAAAAdAAAAABAN) "Pato")
-![Nútria](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nps.gov%2Fsubjects%2Faknatureandscience%2Fwildlifemarineotters.htm&psig=AOvVaw2G9eMijjpe_UhPNgDgkckm&ust=1671122488375000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKC3wMXG-fsCFQAAAAAdAAAAABAI) "Nútria")
+![Pato](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fphotoshopbattles%2Fcomments%2F6j5pva%2Fpsbattle_this_duck_laying_on_its_back%2F&psig=AOvVaw1g_4ogjrwvjPt-t-pnityu&ust=1671122440451000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKDJgq7G-fsCFQAAAAAdAAAAABAN "Pato")
+![Nútria](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nps.gov%2Fsubjects%2Faknatureandscience%2Fwildlifemarineotters.htm&psig=AOvVaw2G9eMijjpe_UhPNgDgkckm&ust=1671122488375000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKC3wMXG-fsCFQAAAAAdAAAAABAI "Nútria")
