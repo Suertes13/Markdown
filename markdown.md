@@ -111,7 +111,7 @@ Insertar una imagen con Markdown se realiza de una manera idéntica a insertar l
 Markdown permite dibujar tablas mediante pleacs `|`. Cada celda está separada por uno de estos caracteres. Para crear encabezados que se distingan visualmente del resto del contenido, se subrayan las celdas correspondientes con guiones `-`. `Ejemplo:`
 
 | Columna 1 | Columna 2 |
-----------------------
+|---|---|
 | uno | dos |
 | tres | cuatro |
 | cinco | seis |
@@ -140,8 +140,8 @@ Escribiendo justo delante del símbolo la barra invertida `\`. `Ejemplo:` Esto e
 
 En línea encerrando la fórmula entre signos de `$` En párrafos centrados, encerrando la fórmula entre dos signos `$$`
 * Fórmulas en línea: $(a + b)² = a² + b² + 2ab$
-* Fórmulas centradas: $$ a² - b² = (a + b)*(a-b)$$
+* Fórmulas centradas: $$a² - b² = (a + b)*(a-b)$$
 * Radicales: $$\sqrt{a² - b²}$$
-* Fracciones $$ x = \frac {-b \pm \sqrt{b² - 4ac}}{2a}$$
+* Fracciones $$x = \frac {-b \pm \sqrt{b² - 4ac}}{2a}$$
 * Paréntesis grandes: $$\left (\sqrt{x²}\right)²$$
 * Colores: $${\color{purple}{A}}abc123$$
